@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace UI.NumerosAleatorios
+﻿namespace UI.NumerosAleatorios
 {
     internal class Empleado
     {
@@ -12,7 +6,7 @@ namespace UI.NumerosAleatorios
         private string nombre;
         private DateTime fechaDeNacimiento;
         private string Sexo;
-        private char grupo; 
+        private char grupo;
         private double sueldo;
         private bool seguroMedico;
 

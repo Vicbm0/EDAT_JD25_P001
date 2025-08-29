@@ -1,7 +1,4 @@
-﻿using FuncionesLambda;
-using System.Runtime.InteropServices;
-
-internal class Program
+﻿internal class Program
 {
     private static void Main(string[] args)
     {
@@ -16,9 +13,9 @@ internal class Program
         //int resultado = suma(4, 6);
         //Console.WriteLine("el resultado es: " + resultado);
 
-        //Func<int, int, int> mayor = (a, b) => 
-        //{ 
-        //    if (a > b) 
+        //Func<int, int, int> mayor = (a, b) =>
+        //{
+        //    if (a > b)
         //    {
 
         //        return a;
@@ -28,25 +25,25 @@ internal class Program
         //    {
 
         //        return b;
+        //    }
 
         //};
         //int res = mayor(45, 20);
         //Console.WriteLine("el resultado es: " + res);
 
-        
-        var numeros = new List<int> {8, 5, 9, 4, 2, 26, 8};
-        Func<int, bool> ObtenerPares = (num) => num % 2 == 0;
-        //var pares = numeros.Where(ObtenerPares);
-        var pares = numeros.Where((num) => num % 2 == 0);
 
-        Console.WriteLine("Hola ");
+        //var numeros = new List<int> {8, 5, 9, 4, 2, 26, 8};
+        //Func<int, bool> ObtenerPares = (num) => num % 2 == 0;
+        //var pares = numeros.Where(ObtenerPares);
+        //var pares = numeros.Where((num) => num % 2 == 0);
+        //Console.WriteLine("Hola ");
 
 
         //Persona pers = new Persona();
         //int edad = 18;
         //edad++;
         //edad++;
-        //Sirve para fijar el objeto en memoria 
+        //Sirve para fijar el objeto en memoria
         //GCHandle handle = GCHandle.Alloc(edad, GCHandleType.Pinned);
         //Sirve para obtener la direccion del objeto fijado
         //IntPtr address = handle.AddrOfPinnedObject();
